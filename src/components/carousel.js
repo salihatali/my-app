@@ -23,7 +23,7 @@ export default function Carousel() {
 
   <img src={items[image]} className="carousel-image"/>
 
-  <div className="carousel-buttons">
+  <div>
     <button onClick={prevImage}>◀</button>
     <button onClick={nextImage}>▶</button>
   </div>
